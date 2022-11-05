@@ -10,10 +10,10 @@ const ProjectPage = ({ id }) => {
   return (
     <div id={id}>
       <Routes>
-        <Route path="/" element={<Project id="1" />} />
-        <Route path="/poster" element={<PosterPage id="1" />} />
+        <Route path="/" element={<Project id="/" />} />
+        <Route path="/poster" element={<PosterPage id="poster" />} />
         <Route path="/poster/:posterId" element={<PosterDetail />} />
-        <Route path="/ui" element={<UiPage id="1" />} />
+        <Route path="/ui" element={<UiPage id="ui" />} />
         <Route path="/posterListing" element={<PosterListing />} />
       </Routes>
     </div>

@@ -40,7 +40,7 @@ export const data = [
       },
     ],
     image: "./assets/Image/Todolist.png",
-    linkCode: "https://github.com/conian250501/TodoList-App",
+    linkCode: "https://github.com/conian250501/TodoList-redux",
     linkDemo: "https://todolist-conian.vercel.app",
   },
   {
@@ -61,47 +61,6 @@ export const data = [
     image: "./assets/Image/movie-app.png",
     linkCode: "https://github.com/conian250501/Movie-App",
     linkDemo: "https://conian250501.github.io/Movie-App/",
-  },
-  {
-    id: nanoid(),
-    title: "LuxstayHome (Clone)",
-    description:
-      "website cung cấp dịch vụ thuê Homestay trên tất cả địa điểm du lịch tại Việt Nam",
-    technicals: [
-      {
-        name: "HTML,CSS",
-      },
-      {
-        name: "Javascript",
-      },
-      {
-        name: "Slick Slider",
-      },
-    ],
-    image: "./assets/Image/luxstay-web.png",
-    linkCode: "https://github.com/conian250501/LuxstayHome",
-    linkDemo: "https://conian250501.github.io/LuxstayHome/",
-  },
-  {
-    id: nanoid(),
-    title: "Weather-App",
-    description:
-      "App cung cấp thông tin về thời tiết của thành phố mà người dùng muốn tìm",
-    technicals: [
-      {
-        name: "HTML,CSS",
-      },
-
-      {
-        name: "Javascript",
-      },
-      {
-        name: "Api",
-      },
-    ],
-    image: "./assets/Image/weather-app.png",
-    linkCode: "https://github.com/conian250501/Weather-App",
-    linkDemo: "https://conian250501.github.io/Weather-App/",
   },
 ];
 

@@ -58,7 +58,7 @@ const PosterPage = ({ id }) => {
           <ImageWrapper className="image__wrapper">
             {data.map((img, index) => (
               <motion.div
-                key={img.id}
+                key={index}
                 className={img.className}
                 transition={{
                   duration: 0.2 * (index + 2),

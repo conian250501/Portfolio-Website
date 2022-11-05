@@ -74,7 +74,7 @@ export const Project = ({ id }) => {
         <SectionSlider {...sliderSettings} ref={sliderRef}>
           {data.map((img, index) => (
             <motion.div
-              key={index}
+              key={img.id}
               transition={{
                 duration: 0.3 * (index + 2),
               }}
@@ -99,7 +99,9 @@ export const Project = ({ id }) => {
                 </SliderHeading>
                 <ProjectTechnical>
                   {img.technicals.map((item, index) => (
-                    <ProjectTechnicalItem>{item.name}</ProjectTechnicalItem>
+                    <ProjectTechnicalItem key={index}>
+                      {item.name}
+                    </ProjectTechnicalItem>
                   ))}
                 </ProjectTechnical>
               </SliderContent>
